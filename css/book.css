@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Anton', sans-serif;
+	background: url(../img/login4.jpg);
+	background-size: cover;
+}
+
+.book-form{
+	width: 500px;
+	height: 620px;
+	background: rgba(137, 134, 136, 0.6);
+	/*box-shadow: 2px 2px 7px black;*/
+}
+h1{
+	color: #fcc80d;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 5px black;
+}
+.textbox1,.textbox2{
+	display: block;
+	margin-top: 5px;
+	/*color: white;*/
+}
+
+/*label{
+	color: white;
+}*/
+.textbox2{
+	width: 420px;
+	height: 40px;
+}
+.textbox1{
+	width: 200px;
+	height: 40px;
+}
+
+.chk{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.bookbtn{
+	width: 420px;
+	height: 40px;
+	background-color: orange;
+	border: 1px solid orange;
+	margin-top: 10px;
+	font-family: 'Anton', sans-serif;
+	font-size: 17px;
+}
+
+.bookbtn:active{
+	transform: scale(0.98);
+}

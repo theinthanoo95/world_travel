@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.divlogo{
+	width: 50%;
+	height: 100%;
+	/*background: linear-gradient(
+		#9b04bd,
+		#d106c0);*/
+	background: url('../img/tlogo2.jpg');
+	background-size: cover;
+	
+	
+	/*background-repeat: no-repeat;*/
+}
+.divlogo p{
+	font-family: 'Rampart One', cursive;
+	font-size: 30px;
+	text-align: right;
+	/*color: red;*/
+	padding: 10px;
+}
+.img{
+	width: 120px;
+	height: 100px;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+
+	
+}
+.container .lworld{
+	font-family: 'Rampart One', cursive;
+	font-size: 35px;
+	margin-bottom: 10px;
+	
+}
+.container{
+	width: 50%;
+	font-family: 'Anton', sans-serif;
+
+}
+.form{
+	padding: 30px 40px;
+}
+
+.form h4{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.form .form-group{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.form-group label{
+	display: block;
+	color: var(--gyc);
+	margin-bottom: 10px;
+}
+
+.form-group .form-control{
+	font-family: inherit;
+	width: 100%;
+	padding: 10px;
+	/*border: 2px solid #fccb05;*/
+	border-radius: 5px;
+}
+
+.form-group .form-control:focus{
+	outline: none;
+}
+.form a{
+
+}
+
+.form .btn{
+	letter-spacing: 1px;
+	width: 100%;
+	font-family: 'Anton', sans-serif;
+	background: linear-gradient(
+		#fccb05,
+		#faa805);
+	font-size: 17px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.form .btn:active{
+	transform: scale(0.98);
+}
+
+.fop{
+	margin-left: 350px;
+	color: black;
+}
+.btn a{
+	color: black;
+	text-decoration: none;
+}
